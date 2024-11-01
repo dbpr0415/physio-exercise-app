@@ -1,0 +1,78 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Upper Body",
+            "exercises": ["Push-up", "Pull-up", "Shoulder Press"]
+        },
+        {
+            "id": 2,
+            "name": "Lower Body",
+            "exercises": ["Squat", "Lunge", "Deadlift"]
+        },
+        {
+            "id": 3,
+            "name": "Core",
+            "exercises": ["Plank", "Crunches", "Leg Raise"]
+        },
+        {
+            "id": 4,
+            "name": "Strength",
+            "subcategories": ["Legs", "Arms"]
+        },
+        {
+            "id": 5,
+            "name": "Cardio",
+            "subcategories": ["Running", "Cycling"]
+        }
+    ],
+    "exercises": [
+        {
+            "id": 1,
+            "name": "Squats",
+            "category": "Strength",
+            "subcategory": "Legs"
+        },
+        {
+            "id": 2,
+            "name": "Push-ups",
+            "category": "Strength",
+            "subcategory": "Arms"
+        },
+        {
+            "id": 3,
+            "name": "Running",
+            "category": "Cardio",
+            "subcategory": "Running"
+        },
+        {
+            "id": 4,
+            "name": "Cycling",
+            "category": "Cardio",
+            "subcategory": "Cycling"
+        }
+    ],
+    "programs": [
+        {
+            "id": 1,
+            "name": "Morning Routine",
+            "date": "2024-10-31",
+            "days": ["M", "W", "F"],
+            "frequency": 2,
+            "exercises": [
+                {
+                    "name": "Push-up",
+                    "sets": 3,
+                    "reps": 12,
+                    "holdTime": "30s"
+                },
+                {
+                    "name": "Squat",
+                    "sets": 3,
+                    "reps": 15
+                }
+            ],
+            "notes": "Focus on form and control."
+        }
+    ]
+}
